@@ -16,3 +16,6 @@ Route::get('contact', function()
 {
     return View('pages.contact');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
