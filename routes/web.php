@@ -1,6 +1,6 @@
 <?php
 
-Route::get('/', function()
+Route::get('/home', function()
 {
     return View('pages.home');
 });
@@ -15,4 +15,19 @@ Route::get('projects', function()
 Route::get('contact', function()
 {
     return View('pages.contact');
+});
+Route::get('/', 'HomeController@index');
+Auth::routes();
+Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
+Route::post('/login', 'Auth\LoginController@showAdmin');
+
+
+Route::get('/tables', function()
+{
+    return View('pages.tables');
+});
+
+Route::get('/index', function()
+{
+    return View('pages.home-admin');
 });

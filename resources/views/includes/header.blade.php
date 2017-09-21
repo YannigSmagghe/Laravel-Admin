@@ -1,6 +1,6 @@
 <!--Header-part-->
 <div id="header">
-    <h1><a href="dashboard.html">Matrix Admin</a></h1>
+    <h1><a href="dashboard.html">Kyrin Admin</a></h1>
 </div>
 <!--close-Header-part-->
 
@@ -29,7 +29,7 @@
             </ul>
         </li>
         <li class=""><a title="" href="#"><i class="icon icon-cog"></i> <span class="text">Settings</span></a></li>
-        <li class=""><a title="" href="login.blade.php"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+        <li class=""><a title="" href="/logout  "><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
     </ul>
 </div>
 <!--close-top-Header-menu-->
